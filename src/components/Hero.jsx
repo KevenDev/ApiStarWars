@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import star from '../assets/starwars.jpg'
-import starIcon from '../assets/staricon.png'
+import starIcon from '../assets/starIcon.svg'
 import {Input, Pagination} from 'antd';
 const {Search}= Input;
 
@@ -19,7 +19,6 @@ const Hero = ()=> {
       .then((res) => res.json())
       .then((response) => {
         setNames([response]);
-        console.log(response);
       });
   }, [current]);
   
@@ -28,7 +27,6 @@ const Hero = ()=> {
     .then((res) => res.json())
       .then((response) => {
         setNames([response]);
-        console.log(response);
       })
     },[query])
 
