@@ -1,4 +1,3 @@
-import React from 'react'
 import sabreIcon from "../assets/sabreIcon.png"
 
 const Footer = ()=> {
