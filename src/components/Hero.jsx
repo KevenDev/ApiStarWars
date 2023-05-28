@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import star from '../assets/starwars.jpg'
-import starIcon from '../assets/staricon.svg'
+import starIcon from '../assets/staricon.png'
 import {Input, Pagination} from 'antd';
 const {Search}= Input;
 
