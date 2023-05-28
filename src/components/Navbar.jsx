@@ -1,4 +1,3 @@
-import { useState } from "react";
 import LogoStarWars from "../assets/logo.png"
 
 

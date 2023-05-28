@@ -1,5 +1,4 @@
 import React from 'react'
-import LogoStarWars from "../assets/logo.png"
 import sabreIcon from "../assets/sabreIcon.png"
 
 const Footer = ()=> {
