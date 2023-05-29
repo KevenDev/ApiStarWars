@@ -5,7 +5,9 @@ Funcionalidades:
 O ApiStarWars possui as seguintes funcionalidades:
 
 Exibição o nome de personagens do filme.
+
 Pesquisa por nome para facilitar a localização de itens específicos.
+
 Paginação para uma melhor experiência de navegação.
 
 Pré-requisitos
