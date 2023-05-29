@@ -1,6 +1,6 @@
 ApiStarWars é um projeto que utiliza React e Ant Design para exibir informações sobre nomes de personagens relacionados.
 
-Funcionalidades
+Funcionalidades \n
 O ApiStarWars possui as seguintes funcionalidades:
 
 Exibição o nome de personagens do filme.
