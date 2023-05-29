@@ -13,22 +13,16 @@ const Hero = ()=> {
   const onSearch = (value) => setQuery(value);
   const onChange = (page) => setCurrent(page)
 
+  const url = `https://swapi.dev/api/people/?page=${current}`
+  const queryUrl = `https://swapi.dev/api/people/?search=${query}`
 
   useEffect(() => {
-    fetch(`https://swapi.dev/api/people/?page=${current}`)
-      .then((res) => res.json())
-      .then((response) => {
-        setNames([response]);
-      });
-  }, [current]);
-  
-  useEffect(()=>{
-    fetch(`https://swapi.dev/api/people/?search=${query}`)
-    .then((res) => res.json())
-      .then((response) => {
-        setNames([response]);
-      })
-    },[query])
+    if (query.length > 0) {
+      fetch(queryUrl).then((res) => res.json()).then((response) => setNames([response]))
+    } else {
+      fetch(url).then((res) => res.json()).then((response) => setNames([response]))
+    }
+  }, [url, queryUrl])
 
   return (
     <>
