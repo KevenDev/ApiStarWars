@@ -1,6 +1,7 @@
 ApiStarWars é um projeto que utiliza React e Ant Design para exibir informações sobre nomes de personagens relacionados.
 
-Funcionalidades \n
+Funcionalidades:
+
 O ApiStarWars possui as seguintes funcionalidades:
 
 Exibição o nome de personagens do filme.
@@ -19,8 +20,11 @@ Clone este repositório para o seu diretório local usando o seguinte comando:
 
 Copy code
 git clone https://github.com/KevenDev/ApiStarWars.git
+
 Navegue até o diretório do projeto:
+
 cd ApiStarWars
+
 Instale as dependências do projeto executando o comando:
 
 npm install
